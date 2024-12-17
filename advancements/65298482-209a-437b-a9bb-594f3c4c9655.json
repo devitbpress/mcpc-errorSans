@@ -3579,5 +3579,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-17 16:46:53 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
