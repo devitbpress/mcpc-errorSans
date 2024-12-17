@@ -41,12 +41,6 @@
     },
     "done": true
   },
-  "vanillatweaks:armored_elytra": {
-    "criteria": {
-      "tick": "2024-10-23 15:17:41 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2024-10-23 15:17:41 +0700"
@@ -3585,5 +3579,5 @@
     },
     "done": true
   },
-  "DataVersion": 3955
+  "DataVersion": 4189
 }
