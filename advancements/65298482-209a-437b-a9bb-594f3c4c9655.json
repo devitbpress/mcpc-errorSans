@@ -81,10 +81,12 @@
     "criteria": {
       "minecraft:cold_ocean": "2024-10-25 15:25:11 +0700",
       "minecraft:snowy_slopes": "2024-10-25 16:12:45 +0700",
+      "minecraft:old_growth_pine_taiga": "2025-01-01 18:09:32 +0700",
       "minecraft:forest": "2024-10-24 12:09:12 +0700",
       "minecraft:taiga": "2024-10-30 07:31:10 +0700",
       "minecraft:lush_caves": "2024-10-30 10:56:18 +0700",
       "minecraft:deep_cold_ocean": "2024-12-20 15:03:09 +0700",
+      "minecraft:frozen_ocean": "2025-01-01 13:42:52 +0700",
       "minecraft:desert": "2024-10-30 07:51:00 +0700",
       "minecraft:ocean": "2024-10-25 15:23:25 +0700",
       "minecraft:jungle": "2024-10-29 16:05:45 +0700",
@@ -106,7 +108,8 @@
       "minecraft:swamp": "2024-11-01 13:40:08 +0700",
       "minecraft:meadow": "2024-10-30 07:33:18 +0700",
       "minecraft:savanna": "2024-10-29 16:17:18 +0700",
-      "minecraft:plains": "2024-10-23 15:41:13 +0700"
+      "minecraft:plains": "2024-10-23 15:41:13 +0700",
+      "minecraft:pale_garden": "2025-01-01 18:04:17 +0700"
     },
     "done": false
   },
@@ -1255,14 +1258,19 @@
       "minecraft:phantom": "2024-12-03 15:50:56 +0700",
       "minecraft:zombified_piglin": "2024-12-20 10:33:01 +0700",
       "minecraft:witch": "2024-12-20 14:43:03 +0700",
+      "minecraft:ravager": "2025-01-01 19:29:52 +0700",
       "minecraft:husk": "2024-10-30 14:22:41 +0700",
       "minecraft:bogged": "2024-11-01 13:43:46 +0700",
+      "minecraft:creaking": "2025-01-01 18:26:27 +0700",
+      "minecraft:vindicator": "2025-01-01 19:24:01 +0700",
       "minecraft:enderman": "2024-11-01 13:03:57 +0700",
       "minecraft:spider": "2024-10-24 12:29:09 +0700",
+      "minecraft:vex": "2025-01-01 19:33:18 +0700",
       "minecraft:zombie": "2024-10-24 12:29:20 +0700",
       "minecraft:creeper": "2024-10-31 12:48:37 +0700",
       "minecraft:drowned": "2024-11-20 09:30:04 +0700",
-      "minecraft:slime": "2024-11-01 13:45:26 +0700"
+      "minecraft:slime": "2024-11-01 13:45:26 +0700",
+      "minecraft:evoker": "2025-01-01 19:34:25 +0700"
     },
     "done": false
   },
@@ -3930,9 +3938,10 @@
   "minecraft:husbandry/leash_all_frog_variants": {
     "criteria": {
       "minecraft:warm": "2024-12-20 14:07:26 +0700",
-      "minecraft:temperate": "2024-12-20 14:36:57 +0700"
+      "minecraft:temperate": "2024-12-20 14:36:57 +0700",
+      "minecraft:cold": "2025-01-01 14:04:15 +0700"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
@@ -4099,6 +4108,186 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2024-12-20 15:14:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-01 13:08:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-01-01 13:08:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-01-01 13:08:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2025-01-01 13:39:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-01 13:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-01 13:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-01 13:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-01-01 13:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creaking_heart": {
+    "criteria": {
+      "has_resin_block": "2025-01-01 18:27:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-01-01 18:09:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-01-01 19:44:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-01-01 18:22:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-01-01 19:54:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2025-01-01 18:05:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2025-01-01 18:22:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_clump": {
+    "criteria": {
+      "has_resin_block": "2025-01-01 18:27:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_moss_carpet": {
+    "criteria": {
+      "has_pale_moss_block": "2025-01-01 18:13:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2025-01-01 18:05:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-01-01 18:09:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-01 18:07:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-01 18:11:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-01 18:07:53 +0700"
     },
     "done": true
   },
